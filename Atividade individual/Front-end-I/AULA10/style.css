@@ -1,0 +1,47 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.hero-card {
+width: 400px;
+background-color: aqua;
+}
+
+.hero-card .background{
+ width: 100%;
+
+}
+
+.hero-card .profile {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: -40px auto;
+    padding-bottom: 10px;
+    
+}
+
+.texto2{
+    position: absolute;
+width: 63.2px;
+height: 20.31px;
+left: 267.69px;
+top: 762.31px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #F3F3F3;
+}
+
+
+
+

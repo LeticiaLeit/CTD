@@ -44,7 +44,7 @@ body {
     cursor: pointer;
 
 }
-
+/* como movimentar a imagem*/
 .video:hover {
 
     transform: scale(1.02);

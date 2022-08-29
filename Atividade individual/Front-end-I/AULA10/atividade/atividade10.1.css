@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap');
+
+* {
+    font-family: 'roboto';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.desconto {
+    background-color: #5dcaa6;
+    padding: 10px 10px;
+}
+
+.titulo {
+    background-color: #2483cb;
+    padding: 30px 20px 20px;
+    font-weight: 100;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main.conteudo {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.card {
+    position: relative;
+    width: 373.57px;
+    height: 550px;
+    text-align: center;
+    background-color: #eeeeee;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.perfil {
+    border-radius: 100%;
+    margin: -70px auto 20px; 
+
+}
+
+.like {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.descricao {
+   padding: 30px 30px 15px;
+
+}
+
+button {
+    background-color: #2483cb;
+    padding: 10px 15px;
+    margin: 15px;
+    border: #eeeeee;
+}
+
+.todos {
+    background-color: #2483cb;
+    padding: 10px 20px;
+}
