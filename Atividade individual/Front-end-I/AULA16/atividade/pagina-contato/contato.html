@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contato.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <p class="desconto">20% de desconto em todos os produtos!</p>
+        </div>
+        <div class="nome-site">
+            <img src="../pngegg.png" alt="">
+            <h1>Super Heróis Store</h1>
+        </div>
+
+        <main>
+            <form class="contato" action="contato">
+                <p class="login">Contato</p>
+                <div>
+                    <label for="nomecompleto"></label>
+                    <input class="campodig" type="text" id="nomecompleto" minlength="6" maxlength="15"
+                        placeholder="Nome e Sobrenome" required>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input class="campodig" type="email" id="email" minlength="6" maxlength="20" placeholder="email"
+                        required>
+                </div>
+                <div>
+                    <label for="observacao"></label>
+                    <textarea class="observacao" name="observacao" id="observacao" cols="30" rows="10"></textarea>
+                </div>
+                <div class="botoes">
+                    <button class="botao-limpar" type="reset">Limpar</button>
+                    <button class="botao-entrar" type="submit">Entrar</button>
+                </div>
+
+                
+            </form>
+        </main>
+        <footer>
+            <P class="footer"> Todos os direito reservados a FRONT END I </P>
+        </footer>
+</body>
+
+</html>

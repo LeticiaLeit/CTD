@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form class="Cadastro">
+        <fieldset>
+            <legend>
+                Dados pessoais
+            </legend>
+            <div class="Controlador">
+                <label for="nomecompleto">Nome completo</label>
+                <input type="text" id="nomecompleto" minlength="6" maxlength="15" required>
+            </div>
+            <div class="Controlador">
+                <label for="email">email</label>
+                <input type="email" id="email" minlength="5" maxlength="30">
+            </div>
+            <div class="Controlador">
+                <label for="data">Data</label>
+                <input type="date" id="data">
+            </div>
+
+            <div class="Controlador">
+                <label for="cidade">Cidade</label>
+                <select name="cidade" id="cidade">Escolha sua cidade
+                    <option value="1">São Paulo</option>
+                    <option value="2">Rio de Janeiro</option>
+                </select>
+            </div>
+        </fieldset>
+
+
+        <div class="Controlador">
+            <label for="nomecompleto">Nome completo</label>
+            <input type="text" id="nomecompleto" minlength="6" maxlength="15" required>
+        </div>
+        <div class="Controlador">
+            <label for="email">email</label>
+            <input type="email" id="email" minlength="5" maxlength="30">
+        </div>
+        <div class="Controlador">
+            <label for="data">Data</label>
+            <input type="date" id="data">
+        </div>
+
+        <div class="Controlador">
+            <label for="cidade">Cidade</label>
+            <select name="cidade" id="cidade">Escolha sua cidade
+                <option value="1">São Paulo</option>
+                <option value="2">Rio de Janeiro</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" id="teste">
+            <label for="teste">teste</label>
+        </div>
+
+        <div class="Controlador">
+            <label for="observacao">Observação</label>
+            <textarea name="observacao" id="observacap" cols="30" rows="10"></textarea>
+
+
+        </div>
+
+
+
+        <button type="submit">Enviar formulario</button>
+        <button type="reset">Limpar o formulário</button>
+
+    </form>
+</body>
+
+</html>

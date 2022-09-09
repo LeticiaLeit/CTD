@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100vw;
+}
+
+.desconto {
+    background-color: #1CD1B0;
+    padding: 2px 10px;
+    font-weight: 100;
+}
+
+.nome-site {
+    display: flex;
+    background-color: #00669F;
+    padding: 10px;
+}
+
+.nome-site img {
+    width: 50px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.nome-site h1 {
+    font-weight: 500;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato p {
+    font-size: 40px;
+}
+
+.contato {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.campodig {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.observacao {
+    width: 100%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.botao-limpar {
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c3c3c3;
+}
+
+.botao-entrar {
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1CD1B0;
+}
+
+.footer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00669F;
+}

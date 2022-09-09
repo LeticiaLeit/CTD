@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registro.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <p class="desconto">20% de desconto em todos os produtos!</p>
+        </div>
+        <div class="nome-site">
+            <img src="../pngegg.png" alt="">
+            <h1>Super Heróis Store</h1>
+        </div>
+
+        <main>
+            <form class="pagina-registro" action="registro">
+                <p class="login">Registro</p>
+                <div>
+                    <label for="nomecompleto"></label>
+                    <input class="campodig" type="text" id="nomecompleto" minlength="6" maxlength="15"
+                        placeholder="Nome e Sobrenome" required>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input class="campodig" type="email" id="email" minlength="6" maxlength="20" placeholder="email"
+                        required>
+                </div>
+                <div>
+                    <label for="senha"></label>
+                    <input class="campodig" type="password" id="senha" minlength="6" maxlength="20" placeholder="Senha"
+                        required>
+                </div>
+                <div class="pais">
+                    <label for="Pais"></label>
+                    <select class="campodig" name="pais" id="pais" required>
+                        <option value="0">Pais</option>
+                        <option value="1">Brasil</option>
+                        <option value="2">Argentina</option>
+                        <option value="3">Colombia</option>
+                        <option value="4">México</option>
+                    </select>
+                </div>
+
+                </div>
+                <div class="botoes">
+                    <button class="botao-limpar" type="reset">Limpar</button>
+                    <button class="botao-registrar" type="submit">Registrar</button>
+                </div>
+
+                <div class="voltar-login">
+                    <p>Ja possui uma conta?</p>
+                    <a href="../atividade16.html">Entrar</a>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <P class="footer"> Todos os direito reservados a FRONT END I </P>
+        </footer>
+</body>
+</html>
